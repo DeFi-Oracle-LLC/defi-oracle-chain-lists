@@ -4241,7 +4241,8 @@
     "name": "Canto Tesnet Explorer (Neobase)",
     "url": "https://testnet-explorer.canto.neobase.one",
     "standard": "none"
-  }]
+  }],
+  "status": "deprecated"
 }, {
   "name": "Vention Smart Chain Testnet",
   "chain": "VSCT",
@@ -9270,6 +9271,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Canto Tesnet",
+  "chain": "Canto",
+  "rpc": ["https://testnet-archive.plexnode.wtf"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "infoURL": "https://canto.io",
+  "shortName": "TestnetCanto",
+  "chainId": 7701,
+  "networkId": 7701,
+  "explorers": [{
+    "name": "Canto Testnet EVM Explorer (Blockscout)",
+    "url": "https://testnet.tuber.build",
+    "standard": "none"
+  }]
+}, {
   "name": "Rise of the Warbots Testnet",
   "chain": "nmactest",
   "rpc": ["https://testnet1.riseofthewarbots.com", "https://testnet2.riseofthewarbots.com", "https://testnet3.riseofthewarbots.com", "https://testnet4.riseofthewarbots.com", "https://testnet5.riseofthewarbots.com"],
@@ -11036,9 +11056,9 @@
     "standard": "none"
   }]
 }, {
-  "name": "CamelArk Mainnet",
+  "name": "Camelark Mainnet",
   "chainId": 20001,
-  "shortName": "CamelArk",
+  "shortName": "Camelark",
   "chain": "ETHW",
   "icon": "camelark",
   "networkId": 20001,
@@ -11050,7 +11070,7 @@
   "rpc": ["https://mainnet-http-rpc.camelark.com"],
   "faucets": [],
   "explorers": [{
-    "name": "CamelArkscan",
+    "name": "CamelarkScan",
     "url": "https://scan.camelark.com",
     "standard": "EIP3091"
   }],
